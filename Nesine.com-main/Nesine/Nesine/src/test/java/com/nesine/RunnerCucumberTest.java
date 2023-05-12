@@ -211,6 +211,8 @@ public class RunnerCucumberTest {
         }
         @When("Oynanma sayisi ve Kod değerleri kontrol edilir.")
         public void liste() throws InterruptedException {
+            System.out.println(playedCount);
+            System.out.println(oynanmaSayisi);
             Assertions.assertEquals(playedCount , oynanmaSayisi);
             System.out.println("playedCount kontrol edildi");
             Assertions.assertEquals(marketNo , kodNumaralari);
