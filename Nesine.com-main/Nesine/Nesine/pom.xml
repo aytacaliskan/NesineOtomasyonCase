@@ -98,8 +98,8 @@
         </dependency>
     </dependencies>
     <properties>
-        <username>36091992504</username>
-        <password>Amasya66</password>
+        <username>tckn</username>
+        <password>sifre</password>
     <name>${project.name}</name>
     <version>${project.version}</version>
     <foo>bar</foo>
