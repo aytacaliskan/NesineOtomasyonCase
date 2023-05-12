@@ -1,0 +1,7 @@
+<suite name="CucumberTestSuite" parallel="methods">
+    <test name="CucumberTest">
+        <classes>
+            <class name="com.nesine.RunnerCucumberTest" />
+        </classes>
+    </test>
+</suite>
